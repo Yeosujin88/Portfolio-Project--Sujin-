@@ -52,7 +52,11 @@ font-size:64px;
   font-size:30px;
   line-height:1.5;
 } 
-.content-container img {max-width:100%; max-height: 60%;}
+
+
+.content {text-align:center;}
+.content h3 {font-size:24px;}
+.content p {font-size:16px;}
 
 .btn-branding {
   color: white;
@@ -83,10 +87,11 @@ font-size:64px;
     line-height: 10px;
 
   }
-  .about-section-container {
+  .content-container {
     padding:0;
     text-align:center;
   }
-  .about-section-container h1 {line-height:1;}
-  .about-section-container h2 {line-height:1; font-size:19px;}
+  .content-container h1 {line-height:1;}
+  .content-container h2 {line-height:1; font-size:19px;}
 }
+
