@@ -16,6 +16,10 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
 }
+  h4 {
+    font-size: 48px;
+  font-family: var(--heading-font-family);
+  }
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -43,20 +47,28 @@ p {
 }
 .content-container {
   padding: 100px 20px;
-
 }
 .content-container h1 {
-font-size:64px;
+  font-size: 64px;
 }
 .content-container h2 {
-  font-size:30px;
-  line-height:1.5;
-} 
+  font-size: 30px;
+  line-height: 1.5;
+}
 
-.work-image {max-width:100%; height:65%;}
-.content {text-align:center;}
-.content h3 {font-size:24px;}
-.content p {font-size:16px;}
+.work-image {
+  max-width: 100%;
+  height: 65%;
+}
+.content {
+  text-align: center;
+}
+.content h3 {
+  font-size: 24px;
+}
+.content p {
+  font-size: 16px;
+}
 
 .btn-branding {
   color: white;
@@ -85,30 +97,74 @@ font-size:64px;
   h2 {
     font-size: 44px;
     line-height: 10px;
+  }
+h4 {font-size:26px;}
 
-  }
   .content-container {
-    padding:0;
-    text-align:center;
+    padding: 0;
+    text-align: center;
   }
-  .content-container h1 {line-height:1;}
-  .content-container h2 {line-height:1; font-size:19px;}
-  .contact-title {margin-top:40px;}
+  .content-container h1 {
+    line-height: 1;
+  }
+  .content-container h2 {
+    line-height: 1;
+    font-size: 19px;
+  }
+  .contact-title {
+    margin-top: 40px;
+  }
 }
-.content a {color:var(--branding-color);}
-.nav {padding:20px 0;}
+.content a {
+  color: var(--branding-color);
+}
+.nav {
+  padding: 20px 0;
+}
 .nav li {
-  display:inline;
-  list-style:none;
+  display: inline;
+  list-style: none;
 }
 .nav li a {
-  text-decoration:none;
-  color:var(--branding-color)
+  text-decoration: none;
+  color: var(--branding-color);
 }
-.active {color:var(--branding-color)!important;
+.active {
+  color: var(--branding-color) !important;
 }
 .nav-item {
   padding: 0 20px;
-  display:flex !important;
+  display: flex !important;
   justify-content: space-around !important;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+}
+.email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+.contact-box {
+  padding: 30px;
+  background: var(--secondary-color);
+  border-radius: 10px;
 }
