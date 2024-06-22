@@ -20,12 +20,15 @@ h2 {
     font-size: 48px;
   font-family: var(--heading-font-family);
   }
+ 
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
+.github-link {color:var(--branding-color);}
+.github-link:visited {color:var(--branding-color);}
 .hero {
   padding: 160px 20px;
   text-align: center;
@@ -168,3 +171,4 @@ footer .social-links a:hover {
   background: var(--secondary-color);
   border-radius: 10px;
 }
+
